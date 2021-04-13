@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     // MARK: - Properties
-    @State var selectedNumber = 0
+    @State var selectedNumber:Double = 0.0
     
     // MARK: - UI Elements
     var body: some View {
